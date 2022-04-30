@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://freitasrayani.github.io/404-error-page/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+    <title>JCS MINI GAME</title>
+<style>
+.text-effect {
+    overflow: hidden;
+    position: relative;
+    -webkit-filter: contrast(110%) brightness(190%);
+    filter: contrast(110%) brightness(190%);
+}
+.neon {
+    position: relative;
+    background: black;
+    color: transparent;
+}
+.neon::before,
+.neon::after {
+    content: attr(data-text);
+    color: white;
+    -webkit-filter: blur(0.02em);
+    filter: blur(0.02em);
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+.neon::after {
+    mix-blend-mode: difference;
+}
+.gradient,
+.spotlight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+    z-index: 10;
+}
+.gradient {
+    background: -webkit-linear-gradient(45deg, red, blue);
+    background: linear-gradient(45deg, red, blue);
+    mix-blend-mode: multiply;
+}
+.spotlight {
+    -webkit-animation: light 5s infinite linear;
+    animation: light 5s infinite linear;
+    background: -webkit-radial-gradient(circle, #ffffff, rgba(0, 0, 0, 0) 25%) 0 0/25% 25%, -webkit-radial-gradient(circle, #ffffff, #000000 25%) 50% 50%/12.5% 12.5%;
+    background: radial-gradient(circle, #ffffff, rgba(0, 0, 0, 0) 25%) 0 0/25% 25%, radial-gradient(circle, #ffffff, #000000 25%) 50% 50%/12.5% 12.5%;
+    top: -100%;
+    left: -100%;
+    mix-blend-mode: color-dodge;
+}
+@-webkit-keyframes light {
+    100% {
+        -webkit-transform: translate3d(50%, 50%, 0);
+        transform: translate3d(50%, 50%, 0);
+    }
+}
+@keyframes light {
+    100% {
+        -webkit-transform: translate3d(50%, 50%, 0);
+        transform: translate3d(50%, 50%, 0);
+    }
+}
+.neon {
+    font: 100 110px 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+.neon:focus {
+    outline: none;
+    border: 1px dotted white;
+}
+body {
+    background: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+</style>
+    <body>
+    <div class="text-effect" style="margin-bottom: 542px;" >
+    <h1 class="neon" data-text="JCS" contenteditable>JCS</h1>
+    <div class="gradient"></div>
+    <div class="spotlight"></div>
+</div>
+    </body>
+
+	</head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://zeus.mrhrtz.com/style.css">
+
+<body>
+    <canvas class='hacker-3d-shiz'></canvas>
+    <canvas class='bars-and-stuff'></canvas>
+    <div class="output-console"></div>
+    <script src="https://zeus.mrhrtz.com/script.js"></script>
+</body>
+
+    <div  style="margin-top: 130px;" class="container">
+        <div class="div-dois">
+                 <h1 class="page-not-found" > </h1>   
+        
+        <h2 class="page-not-found" style="margin-bottom: 50px;"><font color="white">MINI GAME</h2>
+        <a href="car.html"> <button class="btn">CAR GAME</button></a>
+   <a href="tictactoe.html"> <button class="btn">TICTACTOE GAME</button></a>
+     
+                <a href="cat.html"> <button class="btn">CAT GAME</button></a>
+       </br>
+                </br>
+                        <a href="roket.php"> <button class="btn">ROKET GAME</button></a>
+                <a href="tirex.php"> <button class="btn">TIREX GAME</button></a>
+                               <a href="tirexmod.php"> <button class="btn">TIREX MOD</button></a>
+                                </br>
+                </br>
+                        <a href="shuffle.html"> <button class="btn">SHUFFLE GAME</button></a>
+                <a href="snake.php"> <button class="btn">SNAKE GAME</button></a>
+                </br>
+                </br>
+                        <a href="ninja.php"> <button class="btn">NINJA GAME</button></a>
+                <a href="pingpong.php"> <button class="btn">PING PONG GAME</button></a>
+                </br>
+                </br>
+                        <a href="catur.php"> <button class="btn">CATUR GAME</button></a>
+                <a href="smile.php"> <button class="btn">SMILE BALL GAME</button></a>
+                </br>
+                </br>
+                        <a href="jetshoot.php"> <button class="btn">JET SHOOT GAME</button></a>
+                <a href="covid.php"> <button class="btn">MEMORY COVID 19</button></a>
+        </div>
+    
+</div>
+</body>
+</html>
